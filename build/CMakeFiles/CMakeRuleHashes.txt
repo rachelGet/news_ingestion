@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+50c725c44acb5743369e5ddf5176d3f8 CMakeFiles/NewsTransformer_autogen

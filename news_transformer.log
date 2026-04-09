@@ -1,0 +1,42 @@
+[2026-04-09 14:14:37] --- News Transformer Service Starting ---
+[2026-04-09 14:14:37] ERROR: CONN_STR_POSTGRES not set
+[2026-04-09 14:15:34] --- News Transformer Service Starting ---
+[2026-04-09 14:15:34] ERROR: CONN_STR_POSTGRES not set
+[2026-04-09 14:16:44] --- News Transformer Service Starting ---
+[2026-04-09 14:16:44] ERROR: CONN_STR_POSTGRES not set:
+[2026-04-09 14:18:12] --- News Transformer Service Starting ---
+[2026-04-09 14:18:12] ERROR: CONN_STR_POSTGRES not set:
+[2026-04-09 14:19:42] --- News Transformer Service Starting ---
+[2026-04-09 14:19:42] ERROR: CONN_STR_POSTGRES not set:
+[2026-04-09 14:21:17] --- News Transformer Service Starting ---
+[2026-04-09 14:21:17] PostgreSQL source: CONN_STR_POSTGRES
+[2026-04-09 14:21:17] SQL Server dest: /
+[2026-04-09 14:21:17] Database Error: Driver not loaded Driver not loaded
+[2026-04-09 14:21:17] SQL Server Error: Driver not loaded Driver not loaded
+[2026-04-09 14:21:17] WARNING: SQL Server not connected — will retry on each tick
+[2026-04-09 14:21:17] ensureTable error: Driver not loaded Driver not loaded
+[2026-04-09 14:21:17] News Transformer running on port 3003 | Endpoints: /scheduler-conn, /fetch-all, /health
+[2026-04-09 14:21:59] --- News Transformer Service Starting ---
+[2026-04-09 14:21:59] PostgreSQL source: CONN_STR_POSTGRESpostgresql://{USER_POSTGRES}:{PASS_POGRES}@{IP_DIRC_POSTGRES}:{PORT_POSTGRES}/{DB_NAME}?sslmode=disable
+[2026-04-09 14:21:59] SQL Server dest: /
+[2026-04-09 14:21:59] Database Error: Driver not loaded Driver not loaded
+[2026-04-09 14:21:59] SQL Server Error: Driver not loaded Driver not loaded
+[2026-04-09 14:21:59] WARNING: SQL Server not connected — will retry on each tick
+[2026-04-09 14:21:59] ensureTable error: Driver not loaded Driver not loaded
+[2026-04-09 14:21:59] News Transformer running on port 3003 | Endpoints: /scheduler-conn, /fetch-all, /health
+[2026-04-09 14:22:26] --- News Transformer Service Starting ---
+[2026-04-09 14:22:26] PostgreSQL source: CONN_STR_POSTGRES postgresql://{USER_POSTGRES}:{PASS_POGRES}@{IP_DIRC_POSTGRES}:{PORT_POSTGRES}/{DB_NAME}?sslmode=disable
+[2026-04-09 14:22:26] SQL Server dest: /
+[2026-04-09 14:22:26] Database Error: Driver not loaded Driver not loaded
+[2026-04-09 14:22:26] SQL Server Error: Driver not loaded Driver not loaded
+[2026-04-09 14:22:26] WARNING: SQL Server not connected — will retry on each tick
+[2026-04-09 14:22:26] ensureTable error: Driver not loaded Driver not loaded
+[2026-04-09 14:22:26] News Transformer running on port 3003 | Endpoints: /scheduler-conn, /fetch-all, /health
+[2026-04-09 14:26:18] --- News Transformer Service Starting ---
+[2026-04-09 14:26:18] PostgreSQL source: CONN_STR_POSTGRES postgresql://arturo:28021979Rt.@192.168.10.3:5432/scraping-cointelegraph?sslmode=disable
+[2026-04-09 14:26:18] SQL Server dest: /
+[2026-04-09 14:26:18] Database Error: Driver not loaded Driver not loaded
+[2026-04-09 14:26:18] SQL Server Error: Driver not loaded Driver not loaded
+[2026-04-09 14:26:18] WARNING: SQL Server not connected — will retry on each tick
+[2026-04-09 14:26:18] ensureTable error: Driver not loaded Driver not loaded
+[2026-04-09 14:26:18] News Transformer running on port 3003 | Endpoints: /scheduler-conn, /fetch-all, /health

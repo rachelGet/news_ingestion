@@ -116,8 +116,7 @@ int main(int argc, char** argv) {
     const char* envSqlUser = std::getenv("SQL_USER");
     std::string sqlUser = envSqlUser ? envSqlUser : "sa";
 
-    globalLogger->log("PostgreSQL source: CONN_STR_POSTGRES");
-    globalLogger->log("SQL Server dest: " + sqlServer + "/" + sqlDatabase);
+    globalLogger->log("PostgreSQL source: CONN_STR_POSTGRES ");
 
     // ── Initialize components ──
 

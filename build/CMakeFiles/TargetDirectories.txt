@@ -1,0 +1,8 @@
+/media/razz/storage/training_RL/news_ingestion/build/CMakeFiles/NewsTransformer.dir
+/media/razz/storage/training_RL/news_ingestion/build/CMakeFiles/edit_cache.dir
+/media/razz/storage/training_RL/news_ingestion/build/CMakeFiles/rebuild_cache.dir
+/media/razz/storage/training_RL/news_ingestion/build/CMakeFiles/list_install_components.dir
+/media/razz/storage/training_RL/news_ingestion/build/CMakeFiles/install.dir
+/media/razz/storage/training_RL/news_ingestion/build/CMakeFiles/install/local.dir
+/media/razz/storage/training_RL/news_ingestion/build/CMakeFiles/install/strip.dir
+/media/razz/storage/training_RL/news_ingestion/build/CMakeFiles/NewsTransformer_autogen.dir

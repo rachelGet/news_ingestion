@@ -1,3 +1,8 @@
+-include ../.env
+
+export 
+CONN_STR_POSTGRES = postgresql://$(USER_POSTGRES):$(PASS_POGRES)@$(IP_DIRC_POSTGRES):$(PORT_POSTGRES)/$(DB_NAME)?sslmode=disable
+
 BUILD_DIR = build
 BIN       = $(BUILD_DIR)/bin/NewsTransformer
 
@@ -26,10 +31,10 @@ release:
 #   SQL_USER           - default: sa
 
 run: build
-	CONN_STR_POSTGRES=$${CONN_STR_POSTGRES} \
-	PASSWORD_SQL=$${PASSWORD_SQL} \
-	SQL_SERVER=$${SQL_SERVER:-localhost,1433} \
-	SQL_DATABASE=$${SQL_DATABASE:-newsdb} \
+	CONN_STR_POSTGRES=${CONN_STR_POSTGRES} \
+	PASSWORD_SQL=${PASSWORD_SQL} \
+	SQL_SERVER=${SQL_SERVER:-localhost,1433} \
+	SQL_DATABASE=${SQL_DATABASE:-newsdb} \
 	SQL_USER=$${SQL_USER:-sa} \
 	./$(BIN)
 
